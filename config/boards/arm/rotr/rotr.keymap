@@ -16,13 +16,13 @@
 
 		default_layer {
 			//PSCRN | PLAY/PAUSE | F4
-			bindings = <&kp PSCRN &lt 4 C_PP &kp F4>;
+			bindings = <&kp PSCRN &lt 2 F16 &kp F4>;
 			sensor-bindings = <&inc_dec_kp F14 F15>;
 	
 		};
 		one {
 			//CUT | COPY | PASTE
-			bindings = <&kp C_AC_CUT &lt 4 C_AC_COPY &kp C_AC_PASTE>;
+			bindings = <&kp C_AC_CUT &lt 2 C_AC_COPY &kp C_AC_PASTE>;
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 	
 		};
